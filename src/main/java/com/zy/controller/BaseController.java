@@ -9,7 +9,7 @@ import org.apache.commons.logging.LogFactory;
 
 public class BaseController {
 	
-	// 日志.....！！！
+	// 日志.....！！！......
 	protected final Log log = LogFactory.getLog(this.getClass());
 	protected final String className = this.getClass().getName();
 	
