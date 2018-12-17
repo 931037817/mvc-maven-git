@@ -2,7 +2,6 @@ package com.zy.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -19,8 +18,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.alibaba.fastjson.JSONObject;
 import com.zy.util.AccessTokenUtil;
 import com.zy.util.CheckSignatureUtil;
-import com.zy.util.XMLUtil;
 import com.zy.util.MessageUtil;
+import com.zy.util.XMLUtil;
 
 @Controller
 @RequestMapping("/signature/")
